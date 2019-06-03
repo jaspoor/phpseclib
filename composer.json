@@ -74,10 +74,5 @@
         "files": [
             "phpseclib/Crypt/Random.php"
         ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.3.10-ssh2-shift-fix-3"
-        }
     }
 }
