@@ -48,6 +48,9 @@
     "require": {
         "php": ">=5.0.0"
     },
+    "replace": {
+        "phpseclib/phpseclib": "0.3.10"
+    },
     "require-dev": {
         "phing/phing": "~2.7",
         "phpunit/phpunit": "~4.0",
