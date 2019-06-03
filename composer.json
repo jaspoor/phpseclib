@@ -1,5 +1,5 @@
 {
-    "name": "phpseclib/phpseclib",
+    "name": "jaspoor/phpseclib",
     "type": "library",
     "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
     "keywords": [
@@ -50,6 +50,9 @@
             "role": "Developer"
         }
     ],
+    "replace": {
+        "phpseclib/phpseclib": "self.version"
+    },
     "require": {
         "paragonie/constant_time_encoding": "^1",
         "paragonie/random_compat": "^1.4|^2.0",
